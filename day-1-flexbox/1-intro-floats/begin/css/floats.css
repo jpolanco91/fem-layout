@@ -30,14 +30,97 @@ div img {
 	max-width: 225px; 
 }
 
+
 /* grid system -- mobile first! */
 
 
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
-
+	.row-1 {
+		background: lightgreen;
+		float: left;
+	}
+	
+	.row-2 {
+		background: lightblue;
+		float: left;
+	}
+	
+	.row-3 {
+		background: lightyellow;
+		float: left;
+	}
+	
+	.row-4 {
+		background: lightsalmon;
+		float: left;
+	}
 }
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
+	.row-1 {
+		background: lightgreen;
+		float: left;
+	}
+	
+	.row-2 {
+		background: lightblue;
+		float: left;
+	}
+	
+	.row-3 {
+		background: lightyellow;
+		float: left;
+	}
+	
+	.row-4 {
+		background: lightsalmon;
+		float: left;
+	}
+	
+	.individual-box-col {
+		max-width: 225px;
+		float: left;
+		margin-left: 20px;
+		clear: right;
+	}
+	
+	.individual-box-col:last-child {
+		margin-right: 20px;
+	}
+	
+	.article-row-2 {
+		clear: both;
+		margin-left: 20px;
+	}
+	
+	.article-row-2:last-child {
+		margin-right: 20px;
+		margin-top: 54px;
+	}
+	
+	.article-row-3 {
+		float: left;
+		clear: right;
+		margin-left: 132px;
+	}
+	
+	.article-row-3:last-child {
+		margin-right: 20px;
+	}
+	
+	.article-row-4 {
+		float: left;
+		clear: right;
+		margin-left: 20px;
+	}
+	
+	.article-row-4:last-child {
+		margin-right: 490px;
+	}
+	
+	p {
+		max-width: 225px;
+	}
 
 }
