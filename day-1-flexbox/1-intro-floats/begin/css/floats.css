@@ -36,91 +36,79 @@ div img {
 
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
-	.row-1 {
+	.row-2 {
+		float: left;
+	}
+
+	.row-4 {
+		float: left;
+	}
+	.article-col-1 {
 		background: lightgreen;
 		float: left;
+		margin-left: 0;
+		clear: right;
+		margin-top: 2%;
+	}
+
+	.article-col-1:last-child {
+		margin-right: 0;
 	}
 	
-	.row-2 {
+	.article-col-2 {
+		margin-top: 2%;
 		background: lightblue;
 		float: left;
+		clear: right;
+		width: 49%;
+		margin-right: 2%;
+	}
+
+	.article-col-2:last-child {
+		margin-right: 0;
 	}
 	
-	.row-3 {
+	.article-col-3 {
+		margin-top: 2%;
 		background: lightyellow;
 		float: left;
+		clear: right;
+		width: 53%;
+		margin-right: 2.4%;
+	}
+
+	.article-col-3:last-child {
+		margin-right: 0;
+		width: 44.25%;
 	}
 	
-	.row-4 {
+	.article-col-4 {
+		margin-top: 2%;
 		background: lightsalmon;
 		float: left;
+		clear: right;
+		width: 100%;
 	}
+	
 }
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
-	.row-1 {
-		background: lightgreen;
-		float: left;
-	}
-	
-	.row-2 {
-		background: lightblue;
-		float: left;
-	}
-	
-	.row-3 {
-		background: lightyellow;
-		float: left;
-	}
-	
-	.row-4 {
-		background: lightsalmon;
-		float: left;
-	}
-	
-	.individual-box-col {
-		max-width: 225px;
-		float: left;
-		margin-left: 20px;
+	.article-col-1 {
+		margin-top: 0;
+		width: 18%;
+		margin-right: 2%;
+		margin-left: 0;
 		clear: right;
 	}
 	
-	.individual-box-col:last-child {
-		margin-right: 20px;
+	.article-col-2 {
+		width: 38%;
+		margin-right: 2%;
+		margin-left: 0;
 	}
 	
-	.article-row-2 {
-		clear: both;
-		margin-left: 20px;
+	.article-col-3 {
+		width: 32%;
+		margin-right: 1.8%;
 	}
-	
-	.article-row-2:last-child {
-		margin-right: 20px;
-		margin-top: 54px;
-	}
-	
-	.article-row-3 {
-		float: left;
-		clear: right;
-		margin-left: 132px;
-	}
-	
-	.article-row-3:last-child {
-		margin-right: 20px;
-	}
-	
-	.article-row-4 {
-		float: left;
-		clear: right;
-		margin-left: 20px;
-	}
-	
-	.article-row-4:last-child {
-		margin-right: 490px;
-	}
-	
-	p {
-		max-width: 225px;
-	}
-
 }
